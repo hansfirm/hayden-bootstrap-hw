@@ -1,7 +1,13 @@
 // Custom variable overrides go here
-.JumboHeaderImg{
-  background-image: url("S://users/Hayden-Baggett/Desktop/pirate-photos/pirate.ship.jpg");
+$theme-colors: (
+  "primary": grey
+);
+.footer{
+color: white;
+background-color: grey;
+text-align: center;
 }
+
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
 // $body-bg: black;
@@ -10,6 +16,7 @@
 // $font-family-sans-serif: "Helvetica Neue";
 
 // Import Bootstrap styles
+@import 'nav';
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
