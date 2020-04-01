@@ -2,12 +2,19 @@
 
 
 #box1{
-  border-right: 2px solid grey;
+  border-right: 1px solid grey;
+  
+}
+
+#box1000{
+  border-right: 1px solid grey;
+  
 }
 
 .pirate{
 max-width: 224px;
 max-height: 279.75px;
+padding: 8px;
 }
 $theme-colors: (
   "primary": grey
