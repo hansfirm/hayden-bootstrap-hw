@@ -1,4 +1,14 @@
-// Custom variable overrides go here
+// Custom variable overrides go her
+
+
+#box1{
+  border-right: 2px solid grey;
+}
+
+.pirate{
+max-width: 224px;
+max-height: 279.75px;
+}
 $theme-colors: (
   "primary": grey
 );
