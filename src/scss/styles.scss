@@ -1,30 +1,4 @@
-// Custom variable overrides go her
-
-
-#box1{
-  border-right: 1px solid grey;
-  
-}
-
-#box1000{
-  border-right: 1px solid grey;
-  
-}
-
-.pirate{
-max-width: 224px;
-max-height: 279.75px;
-padding: 8px;
-}
-$theme-colors: (
-  "primary": grey
-);
-.footer{
-color: white;
-background-color: grey;
-text-align: center;
-}
-
+// Custom variable overrides go here
 // For options, see node_modules/bootstrap/scss/_variables.scss
 // examples:
 // $body-bg: black;
@@ -33,7 +7,48 @@ text-align: center;
 // $font-family-sans-serif: "Helvetica Neue";
 
 // Import Bootstrap styles
-@import 'nav';
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+@import 'nav';
+@import 'jumbotron';
+
+// Local styles
+
+.display-1{
+  font-family: 'Pirata One', cursive;
+  color: white;
+  }
+  .lead{
+  font-family: 'Pirata One', cursive;
+  color: white;
+  }
+
+
+  .pirate{
+  max-width: 224px;
+  max-height: 279.75px;
+  padding: 8px;
+  }
+  $theme-colors: (
+    "primary": grey
+  );
+  .footer{
+  color: white;
+  background-color: grey;
+  text-align: center;
+  }
+
+h1 {
+    font-family: 'Pirata One', cursive;
+    }
+.textandbylines{
+      font-family: 'Courier Prime', monospace;
+  }
+p{
+  font-family: 'Courier Prime', monospace;
+}
+
+.myrrh{
+  font-family: 'Pirata One', cursive;
+}
